@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yash Portfolio</title>
+
+    <!-- Link to font awesome for inserting icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Link to css for style -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Yash<span>DEV</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="profile-header">
+                <h1>Yash Chopra</h1>
+                <div class="profile-subtitle">
+                    <p>Full Stack Developer | DSA Problem Solver | AI/ML Enthusiast | Aspiring Data Scientist</p>
+                </div>
+                <div class="profile-details">
+                    <span class="location">
+                        <i class="fas fa-map-marker-alt"></i> Ghaziabad, Uttar Pradesh, India
+                    </span>
+                    <br></br>
+                </div>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+
+            </div>
+        </div>
+
+
+        <div class="profile-container">
+            <div class="profile-border"></div>
+            <div class="tech-icons">
+                <i class="tech-icon" style="top: 0; left: 50%; transform: translateX(-50%);">🪄</i>
+                <i class="tech-icon" style="top: 0; right: 0; transform: translateX(-50%);">📘</i>
+                <i class="tech-icon" style="bottom: 0; left: 50%; transform: translateX(-50%);">🔧</i>
+                <i class="tech-icon" style="top: 50%; left: 0; transform: translateY(-50%);">🎨</i>
+            </div>
+            <img src="profile1.jpg" alt="Profile Picture" width="300px" class="profile-pic">
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate full-stack developer and data science enthusiast currently pursuing my degree in
+                    Computer Science. With a relentless curiosity for technology, I thrive at the intersection of
+                    development and data — building robust applications while extracting meaningful insights from
+                    complex datasets.</p>
+                <p>My toolkit spans full-stack development (Django, React, Node.js, and modern JavaScript frameworks),
+                    data science (Python with Pandas and NumPy, SQL, and machine learning fundamentals), and DevOps &
+                    Cloud (Docker, AWS basics, and CI/CD pipelines).</p>
+                <p>Beyond coursework, I actively contribute to open-source projects, participate in hackathons, and
+                    explore emerging tech like AI/ML and blockchain. When not coding, you'll find me analyzing datasets
+                    on Kaggle or diving into tech blogs to stay ahead of the curve.</p>
+            </div>
+
+            <div class="skills">
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Python</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Django</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Flask</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>React</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Node.js</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;">100%</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Tailwind CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%;">80%</div>
+                        </div>
+                    </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+
+            <!-- 1st card -->
+            <div class="project-card">
+                <img src="StayIn.jpg" alt="StayIn Hotel Booking" height="200px" class="project-img" />
+                <div class="project-info">
+                    <h3 class="project-title">StayIn Booking Platform</h3>
+                    <p class="project-description">
+                        Full-featured hotel booking system with dual dashboards, Stripe payments,
+                        and AI support built with Django and MySQL.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">Groq AI</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Bootstrap</span>
+                        <span class="tech-tag">Mailgun</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://stayin.onrender.com" class="project-link" target="_blank"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/theyash920/StayIn" class="project-link" target="_blank"><i
+                                class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd Card-->
+            <div class="project-card">
+                <img src="NeuroNote.png" alt="NeuroNote AI Platform" height="200px" class="project-img" />
+                <div class="project-info">
+                    <h3 class="project-title">NeuroNote AI</h3>
+                    <p class="project-description">
+                        AI-powered blogging and note-taking platform with content generation, admin dashboard,
+                        and media management built with React and Node.js.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Gemini AI</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express js</span>
+                        <span class="tech-tag">ImageKit</span>
+                        <span class="tech-tag">npm</span>
+                        <span class="tech-tag">git</span>
+
+                    </div>
+                    <div class="project-links">
+                        <a href="https://neuronote-ifwp.onrender.com" class="project-link"><i
+                                class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/theyash920/NeuroNote" class="project-link"><i
+                                class="fab fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd Card: Expense Tracker -->
+            <div class="project-card">
+                <img src="expensetracker1.jpg" alt="Expense Tracker" height="200px" class="project-img" />
+                <div class="project-info">
+                    <h3 class="project-title">Expense Tracker</h3>
+                    <p class="project-description">
+                        A full-stack web app to track and manage personal expenses. Features include user
+                        authentication,
+                        categorized tracking, CRUD operations, and responsive dashboards.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">MySQL/SQLite</span>
+                        <span class="tech-tag">Render</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://expense-tracker-z99a.onrender.com" class="project-link"><i
+                            class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <a href="https://github.com/theyash920/Expense-Tracker" class="project-link"><i
+                            class="fab fa-github"></i> Code</a>
+                        
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <form class="contact-form" action="https://formspree.io/f/xqabrdbo" method="POST">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" name="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+    <!-- Footer-->
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/theyash920" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yash-chopra-3b6416303" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/sujal_chop16257?t=LdbcXsL4-eoOH5UlUTFMtg&s=09" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/yashchopra.92?igsh=MThnNm9oMnl5NDdmbA==" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">© 2023 YashDEV. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+    <!-- link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+
+</div>
+</nav>
+</body>
+
+</html>
