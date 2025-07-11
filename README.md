@@ -5,7 +5,6 @@ This is a modern, responsive **single-page portfolio website** built using **HTM
 ## 🌐 Live Demo
 
 👉 [View Portfolio Website](#)  
-🔗 *(Replace `#` with your actual deployed link)*
 
 ---
 
